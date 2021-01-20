@@ -1,0 +1,112 @@
+[{
+		"id": "genderquestion",
+		"type": "radio",
+		"qno": "1",
+		"question": "Please select gender",
+		"placeholder": "",
+		"selectedValue": "",
+		"customerSurveyType": "B",
+		"displayYN": "Y",
+		"answer": [{
+				"id": "genderM",
+				"name": "gender",
+				"value": "Male",
+				"isselected": false
+			},
+			{
+
+				"id": "genderF",
+				"name": "gender",
+				"value": "Female",
+				"isselected": false
+			}
+		],
+		"required": true
+	},
+	{
+		"id": "Mobilenoquestion",
+		"type": "text",
+		"qno": "2",
+		"question": "Mobile Number",
+		"placeholder": "",
+		"customerSurveyType": "B",
+		"displayYN": "Y",
+		"answer": [],
+		"selectedValue": "",
+		"required": true
+
+	},
+	{
+		"id": "Langaguequestion",
+		"type": "checkbox",
+		"qno": "3",
+		"question": "Please select langagues",
+		"placeholder": "",
+		"customerSurveyType": "B",
+		"displayYN": "Y",
+		"selectedValue": "langague1,langague2",
+		"answer": [{
+				"id": "langague1",
+				"name": "langague1",
+				"value": "Hindi",
+				"isselected": false
+			},
+			{
+				"id": "langague2",
+				"name": "langague2",
+				"value": "English",
+				"isselected": false
+			},
+			{
+				"id": "langague3",
+				"name": "langague3",
+				"value": "Marathi",
+				"isselected": false
+			}
+		],
+		"required": true
+	},
+	{
+		"id": "emoji Ratting",
+		"type": "emoji",
+		"qno": "4",
+		"question": "How are you feeling about working here",
+		"selectedValue": "",
+		"customerSurveyType": "B",
+		"displayYN": "Y",
+		"answer": [],
+		"required": true
+	},
+	{
+		"id": "Customer Ratting",
+		"type": "Ratting",
+		"qno": "5",
+		"question": "How are you feeling about working here",
+		"selectedValue": "",
+		"customerSurveyType": "B",
+		"displayYN": "Y",
+		"answer": [],
+		"required": true
+	},
+	{
+		"id": "descripationquestion",
+		"type": "textarea",
+		"qno": "6",
+		"question": "Enter Description",
+		"placeholder": "",
+		"customerSurveyType": "B",
+		"displayYN": "Y",
+		"answer": [],
+		"selectedValue": "",
+		"required": true
+	},
+	{
+		"id": "emailaquestion",
+		"type": "email",
+		"qno": "7",
+		"question": "Enter Email",
+		"placeholder": "",
+		"answer": [],
+		"required": true
+	}
+]
